@@ -1,0 +1,100 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.24);
+
+  color: white;
+}
+.container img {
+  width: 2in;
+  height: 7rem;
+  margin-left: 85%;
+  margin-top: -18mm;
+
+  background: rgba(255, 255, 255, 0.103);
+}
+
+.main header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3%;
+}
+.main header h1 {
+  color: red;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+.main header button {
+  border-radius: 1mm;
+  width: 1in;
+  height: 2.600rem;
+  cursor: pointer;
+  border: none;
+  outline: transparent;
+  color: white;
+  background-color: red;
+  font-size: 1.300rem;
+}
+
+.Center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Center h1 {
+  font-size: 3rem;
+  width: 7in;
+  text-align: center;
+}
+.Center h3 {
+  font-size: 1.600rem;
+  text-align: center;
+  margin-top: -7mm;
+}
+
+.Center .form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 5rem;
+}
+
+.form p {
+  margin-bottom: -1px;
+  text-align: start;
+  margin-left: -6.400rem;
+}
+
+.form .item_o {
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+}
+.form .item_o input {
+  border: none;
+  border-radius: 1mm 0 0 1mm;
+  border-color: black;
+  outline: transparent;
+  width: 4in;
+  height: 4rem;
+  padding-left: 2mm;
+  font-size: medium;
+}
+.form .item_o button {
+  width: 2in;
+  height: 4rem;
+  border: none;
+  border-radius: 0 1mm 1mm 0;
+  color: white;
+  background-color: red;
+  outline: transparent;
+  cursor: pointer;
+  font-size: 1.700rem;
+}
