@@ -8,14 +8,6 @@
 
   color: white;
 }
-.container img {
-  width: 2in;
-  height: 7rem;
-  margin-left: 85%;
-  margin-top: -18mm;
-
-  background: rgba(255, 255, 255, 0.103);
-}
 
 .main header{
   display: flex;

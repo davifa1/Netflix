@@ -33,7 +33,6 @@ export default function Home() {
          </div>
        </div>
      </div>
-     <img src="./scroll-down_figma_web.gif" alt="scroll indicator"/>
     </div>
   )
 }
